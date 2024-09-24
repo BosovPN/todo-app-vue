@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia';
 import { nanoid } from 'nanoid';
 
-interface Todo {
+export interface Todo {
     id: string;
     text: string;
     completed: boolean;

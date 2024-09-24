@@ -1,0 +1,54 @@
+/* Task style */
+.todo-item {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word; /* Enable word wrapping */
+    overflow-wrap: break-word; /* Alternative word wrapping */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Ensure that the text can wrap properly */
+.todo-item span {
+    flex: 1; /* Allow the span to grow */
+    margin-right: 10px;
+    overflow: hidden; /* Prevent overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflow */
+    white-space: normal; /* Allow text to wrap to the next line */
+    font-size: 18px;
+}
+
+/* Complete tasks will have a line-through */
+.todo-item.completed span {
+    text-decoration: line-through; /* Task completed */
+}
+
+/* Specific styles for edit and remove buttons */
+.edit-button,
+.remove-button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.edit-button:hover,
+.remove-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Textarea for editing */
+.edit-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
