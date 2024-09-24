@@ -1,5 +1,33 @@
-# Vue 3 + TypeScript + Vite
+# Todo-app-vue
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Installation
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Cloning the repository
+```bash
+git clone https://github.com/BosovPN/todo-app-vue.git
+```
+
+Move into directory where we have the project files 
+```bash
+cd todo-app-vue
+```
+
+Install the dependencies
+```bash
+npm install
+```
+
+### Running the Project in development mode
+```bash
+npm run dev
+```
+
+### Building a project
+```bash
+npm run build
+```
+
+### Run build for preview
+```bash
+npm run serve
+```

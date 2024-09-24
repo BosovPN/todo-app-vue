@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "noEmit": true,  // Гарантирует, что TypeScript не будет создавать .js файлы
     "module": "ESNext",
     "target": "ESNext",
     "moduleResolution": "node",
