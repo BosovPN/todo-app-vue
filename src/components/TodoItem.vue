@@ -86,4 +86,8 @@ export default defineComponent({
 .accept-button:hover {
   background-color: #45a049; /* Darkening on hover */
 }
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px; /* Adding margin to the right for the checkbox */
+}
 </style>

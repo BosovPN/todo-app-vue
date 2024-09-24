@@ -1,5 +1,8 @@
 # Todo-app-vue
 
+## Example of the application in operation
+![Application Screenshot](public/images/AppScreen.PNG)
+
 ### Installation
 
 Cloning the repository
